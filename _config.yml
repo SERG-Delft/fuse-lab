@@ -1,0 +1,20 @@
+exclude: [".gitignore", "README.md", "Rakefile", "final-report", "publications", "students", "tracks", "vacancies", "events"]
+highlighter: rouge
+future: true
+
+relative_permalinks: false
+
+title : Delft-Meta Research Lab
+tagline:
+author :
+  name : Carolin Brandt
+  github : serg-delft
+  # twitter : Ai4Fintech
+
+baseurl: "/delft-meta-research-lab" # the subpath of your site, e.g. /blog
+url: "https://se.ewi.tudelft.nl/" # the base hostname & protocol for your site, e.g.
+
+collections:
+  tracks :
+    output: true
+    sort_by: track-id
