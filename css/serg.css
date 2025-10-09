@@ -87,8 +87,16 @@ h3 {
 }
 
 /*People*/
-.card {
-  max-width: 10rem;
+.card-deck .card {
+  margin: 5px;
+  min-width: 12rem;
+  max-width: 12rem;
+}
+
+.card-img-top {
+  max-height: 190px;
+  min-height: 190px;
+  object-fit: cover;
 }
 
 .card-body {
@@ -111,10 +119,6 @@ h3 {
 
 .row {
   margin: 0rem;
-}
-
-.non-top-row {
-  padding-top: 25px
 }
 
 /* Tables, for examples used for listing research projects. */

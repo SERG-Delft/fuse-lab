@@ -1,4 +1,4 @@
-exclude: [".gitignore", "README.md", "Rakefile", "final-report", "publications", "students", "tracks", "vacancies", "events"]
+exclude: [".gitignore", "README.md", "Rakefile", "final-report", "publications", "students", "vacancies", "events"]
 highlighter: rouge
 future: true
 
@@ -18,3 +18,8 @@ collections:
   tracks :
     output: true
     sort_by: track-id
+  people:
+    output: true
+    published: false # don't publish people pages by default
+    permalink: /people/:title/
+    sort_by: surname

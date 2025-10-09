@@ -33,6 +33,7 @@ The lab is led by scientific directors [Arie van Deursen][avandeursen] and [Andy
 
 ----
 
+TODO: include 1-2 group pictures here (from lab launch?)
 <!-- ![](img/afr2020.jpg) -->
 
 ----

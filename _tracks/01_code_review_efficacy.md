@@ -1,12 +1,14 @@
 ---
 layout: track
 track-id: 1
-title: Software Analytics
-leader: Georgios Gousios, Arie van Deursen
-phd: Elvan Kula
+title: Code Review Efficacy
+leader: Maliheh Izadi, Arie van Deursen
+phd: 
 ---
 
-![](../img/release-planning.png)
+
+
+<!-- ![](../img/release-planning.png)
 
 The research area of software analytics seeks to leverage data collected from software engineering processes to improve the effectiveness and efficiency of these processes. Data collected for these purposes include issues, log data, source code repositories, epic descriptions, etc. Thanks to the abundance of data, it becomes increasingly viable to apply machine learning techniques (e.g., random forests, support vector machines, neural networks) to use historic development information to support current development activities.
 
@@ -55,4 +57,4 @@ Factors affecting cloud infra-service development lead times: a case study at IN
 
 - Arie van Deursen. Explainable Software Engineering. Keynote address at Bit & Chips, October 2023, Eindhoven, The Netherlands. Slides: <https://speakerdeck.com/avandeursen/explainable-software-engineering>
 
-- Arie van Deursen. FinTech: A Fertile Ground for Software Engineering Research. Presentation at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), Luxembourg. June 2023.
+- Arie van Deursen. FinTech: A Fertile Ground for Software Engineering Research. Presentation at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), Luxembourg. June 2023. -->
