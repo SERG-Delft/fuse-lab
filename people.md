@@ -4,10 +4,31 @@ title: People
 description: Members of the Lab
 ---
 
-TODO: Add Ven and Meta Track Leads, sort by tracks + add 'management' section at top (Arie, Andy, Ven, Caro, Kim), update descriptions to match the lab role 
+<!-- {% assign sorted_people = site.people | sort: "surname" %}
+{% include person-card-deck.html heading="Lab Members" people=sorted_people %} -->
 
-{% assign sorted_people = site.people | sort: "surname" %}
-{% include person-card-deck.html heading="Lab Members" people=sorted_people %}
+{% assign management = sorted_people | where: "track", "leadership" %}
+{% assign sorted = management | sort: "order" %}
+{% include person-card-deck.html heading="Lab Leadership" people=sorted %}
+
+{% assign management = sorted_people | where: "track", "management" %}
+{% assign sorted = management | sort: "order" %}
+{% include person-card-deck.html heading="Lab Management" people=sorted %}
+
+{% assign management = sorted_people | where: "track", "1" %}
+{% include person-card-deck.html heading="Track 1" people=management %}
+
+{% assign management = sorted_people | where: "track", "2" %}
+{% include person-card-deck.html heading="Track 2" people=management %}
+
+{% assign management = sorted_people | where: "track", "3" %}
+{% include person-card-deck.html heading="Track 3" people=management %}
+
+{% assign management = sorted_people | where: "track", "4" %}
+{% include person-card-deck.html heading="Track 4" people=management %}
+
+{% assign management = sorted_people | where: "track", "5" %}
+{% include person-card-deck.html heading="Track 5" people=management %}
 
 <!-- {% assign faculty = sorted_people | where: "role", "Faculty" %}
 {% include person-card-deck.html heading="Faculty" people=faculty %}

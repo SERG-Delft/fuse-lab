@@ -1,7 +1,11 @@
 ---
 given_name: Carolin
 surname: Brandt
-interests: Human- and Developer-centered Software Engineering
+interests: Lab Manager, Track Lead
+track: 
+  - management
+  - 4
+order: 1
 
 current_affiliation: SERG
 role: Faculty

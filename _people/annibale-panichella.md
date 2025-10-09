@@ -1,7 +1,8 @@
 ---
 given_name: Annibale
 surname: Panichella
-interests: Computational Intelligence for SE, Automated Software Testing, Evolutionary Algorithms
+interests: Track Lead
+track: 2
 
 current_affiliation: SERG
 role: Faculty

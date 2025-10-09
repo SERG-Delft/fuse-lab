@@ -1,11 +1,12 @@
 ---
 given_name: Diomidis
 surname: Spinellis
-interests: Software Analytics, Software Tools (0.2fte)
+interests: Track Lead
 current_affiliation: SERG
 role: Part Time Faculty
 start_date:
 end_date:
+track: 1
 
 website_url: https://www.spinellis.gr/
 github: DSpinellis

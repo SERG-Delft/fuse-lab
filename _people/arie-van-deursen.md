@@ -1,7 +1,13 @@
 ---
 given_name: Arie van
 surname: Deursen
-interests: Group leader
+interests: Scientific Director, Track Lead
+track: 
+  - leadership
+  - 1
+  - 3
+  - 5
+order: 1
 
 current_affiliation: SERG
 role: Faculty

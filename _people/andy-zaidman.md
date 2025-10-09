@@ -1,7 +1,12 @@
 ---
 given_name: Andy
 surname: Zaidman
-interests: Software Testing, Software Evolution. Head of <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology">Department of Software Technology</a>
+interests: Scientific Director, Track Lead
+track: 
+  - leadership
+  - 4
+management: yes
+order: 4
 
 current_affiliation: SERG
 role: Faculty

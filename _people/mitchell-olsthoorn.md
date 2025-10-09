@@ -1,7 +1,8 @@
 ---
 given_name: Mitchell
 surname: Olsthoorn
-interests: Computational Intelligence for SE, Security Testing, Blockchain
+interests: Track Lead
+track: 2
 
 current_affiliation: SERG
 role: Faculty

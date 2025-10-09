@@ -1,7 +1,8 @@
 ---
 given_name: Luís
 surname: Cruz
-interests: Green SE, AI Engineering
+interests: Track Lead
+track: 1
 
 role: Part Time Faculty
 
