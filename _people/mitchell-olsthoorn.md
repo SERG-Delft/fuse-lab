@@ -2,7 +2,7 @@
 given_name: Mitchell
 surname: Olsthoorn
 interests: Track Lead
-track: 2
+track: "2"
 
 current_affiliation: SERG
 role: Faculty

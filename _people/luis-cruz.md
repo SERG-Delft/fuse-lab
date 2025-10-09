@@ -2,9 +2,11 @@
 given_name: Luís
 surname: Cruz
 interests: Track Lead
-track: 1
+track: 
+  - "1"
 
 role: Part Time Faculty
+current_affiliation: SERG
 
 website_url: https://luiscruz.github.io/
 github: luiscruz

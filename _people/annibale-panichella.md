@@ -2,7 +2,7 @@
 given_name: Annibale
 surname: Panichella
 interests: Track Lead
-track: 2
+track: "2"
 
 current_affiliation: SERG
 role: Faculty

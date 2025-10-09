@@ -4,7 +4,7 @@ surname: Zaidman
 interests: Scientific Director, Track Lead
 track: 
   - leadership
-  - 4
+  - "4"
 management: yes
 order: 4
 

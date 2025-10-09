@@ -18,6 +18,7 @@ collections:
   tracks :
     output: true
     sort_by: track-id
+    permalink: /tracks/:title/
   people:
     output: true
     published: false # don't publish people pages by default

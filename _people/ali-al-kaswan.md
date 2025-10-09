@@ -2,9 +2,10 @@
 given_name: Ali
 surname: Al-Kaswan
 interests: NLP for Software Engineering, Cyber Security
-track: 5
+track: 
+  - "5"
 
-current_affiliation: SERG
+current_affiliation: SERG, PhD
 role: PhD Student
 start_date:
 end_date:

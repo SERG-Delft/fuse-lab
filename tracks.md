@@ -3,24 +3,27 @@ layout: default
 title: Research Tracks
 ---
 
-TODO: Add descriptions of the tracks (e.g., from vacancy form), and add pages for each track
-
 # Research Tracks
 
 The lab's research tracks are:
 
-Track 1: Code Review Efficacy  
+<!-- Track 1: Code Review Efficacy  
 Track 2: Scalable Testing for Large Codebases  
 Track 3: Automated Code Refactoring  
 Track 4: Engineering Productivity Metrics  
-Track 5: The Security Impact of LLMs4Code  
+Track 5: The Security Impact of LLMs4Code   -->
 
 
-| Id | Track  | PhD Candidate | Track leads |
-|-|--------|---------------|----| 
+| Id | Track  | PhD Candidate | Track leads Delft | Track leads Meta |
+|----|--------|---------------|-------------------|------------------|
 {% for track in site.tracks -%}
 {%- unless track.inactive -%}
-| {{track.track-id}} | [{{track.title}}]({{track.url | relative_url}}) | {{track.phd}} | {{track.leader}} |
+  {%- assign track_id_str = track.track-id | append: '' -%}
+  {%- assign people = site.people | where_exp: "person", "person.track contains track_id_str" -%}
+  {%- assign serg = people | where: "current_affiliation", "SERG" -%}
+  {%- assign meta = people | where: "current_affiliation", "Meta" -%}
+  {%- assign phd = people | where: "current_affiliation", "SERG, PhD" -%}
+| {{track.track-id}} | [{{track.title}}]({{track.url | relative_url}}) | {%- include join_names.html people=phd -%} | {%- include join_names.html people=serg -%} | {%- include join_names.html people=meta -%} |
 {%- endunless %}
 {% endfor %}
 

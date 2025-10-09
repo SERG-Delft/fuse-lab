@@ -4,9 +4,9 @@ surname: Deursen
 interests: Scientific Director, Track Lead
 track: 
   - leadership
-  - 1
-  - 3
-  - 5
+  - "1"
+  - "3"
+  - "5"
 order: 1
 
 current_affiliation: SERG

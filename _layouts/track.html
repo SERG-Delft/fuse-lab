@@ -4,10 +4,18 @@ layout: default
 
 <h1>Track {{ page.track-id }}: {{ page.title }}</h1>
 
-<strong>PhD Candidate:</strong> {{ page.phd }} <br/>
-<strong>Track leader:</strong> {{ page.leader }}
-
-<br/>
-<br/>
-
 {{ content }}
+
+{% assign sorted_people = site.people | sort: "surname" %}
+{% assign track_id_str = page.track-id | append: '' %}
+
+{% assign track_people = sorted_people | where: "track", track_id_str %}
+<!-- {% assign track = site.people | where: "track", "page.track-id" %} -->
+{% assign serg = track_people | where: "current_affiliation", "SERG" %}
+{% include person-card-deck.html heading="Track Leaders TU Delft" people=serg %}
+
+{% assign meta = track_people | where: "current_affiliation", "Meta" %}
+{% include person-card-deck.html heading="Track Leaders Meta" people=meta %}
+
+{% assign meta = track_people | where: "current_affiliation", "SERG, PhD" %}
+{% include person-card-deck.html heading="PhD Candidate" people=meta %}

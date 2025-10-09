@@ -4,7 +4,8 @@
 {% endcomment %}
 
 <div class="card">
-    <img class="card-img-top" src="img/people/{{include.person.slug}}.jpg" alt="{{ include.person.given_name }} {{ include.person.surname }}">
+    {% assign image_url = "img/people/" | append: include.person.slug | append: ".jpg" %}
+    <img class="card-img-top" src="{{ image_url | relative_url }}" alt="{{ include.person.given_name }} {{ include.person.surname }}">
     <div class="card-body">
         <div class="card-title"><a {% if include.person.website_url %} href="{{ include.person.website_url }}"{% endif %}>{{ include.person.given_name }} {{ include.person.surname }}</a></div>
         <p class="card-text">{{include.person.interests}}</p>

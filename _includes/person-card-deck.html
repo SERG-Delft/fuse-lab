@@ -6,7 +6,7 @@ Pass the parameter `people` to this include to render the card.
 
 {% if include.people.size > 0 %}
 {% if include.heading %}
-### {{ include.heading }}
+<h3> {{ include.heading }} </h3>
 {% endif %}
 <div class="card-deck mb-4">
 {% for person in include.people %}

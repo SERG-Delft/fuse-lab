@@ -4,7 +4,7 @@ surname: Brandt
 interests: Lab Manager, Track Lead
 track: 
   - management
-  - 4
+  - "4"
 order: 1
 
 current_affiliation: SERG

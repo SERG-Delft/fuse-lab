@@ -3,7 +3,7 @@ given_name: Rui
 surname: Maranhao Abreu
 interests: Track Lead
 track: 
-  - 1
+  - "1"
 order: 2
 
 current_affiliation: Meta
