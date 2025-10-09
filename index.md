@@ -1,6 +1,16 @@
 ---
 layout: default
 title: Delft-Meta Research Lab
+carousels:
+  - images:
+    - image: img/group_photos/lab-launch-Oct2.jpeg
+      text: "Lab Launch @ TU Delft, October 2025"
+    - image: img/group_photos/serg-meta-visit-Oct3.jpeg
+      text: "SERG visiting Meta Amsterdam Office, October 2025"
+    - image: img/group_photos/metaDevInfra-students-ama.jpeg
+      text: "Meta Dev Infra AMA in the Software Architecture course"
+    - image: img/group_photos/leadership-meta-amsterdam-Oct3.jpeg
+      text: "Meta Leadership, October 2025"
 ---
 
 # Delft-Meta Research Lab
@@ -29,13 +39,9 @@ AFR participates in the Innovation Center for Artificial Intelligence ([ICAI]) a
 
 The lab is led by scientific directors [Arie van Deursen][avandeursen] and [Andy Zaidman][azaidman] and lab managers [Carolin Brandt][cbrandt] and [Venkatesh Chandrasekar][vchandrasekar].
 
-<!-- TODO: link Caro and ven -->
-
 ----
 
-TODO: include 1-2 group pictures here (from lab launch?)
-
-<!-- ![](img/afr2020.jpg) -->
+{% include carousel.html height="38" unit="%" duration="10" number="1" %}
 
 ----
 
