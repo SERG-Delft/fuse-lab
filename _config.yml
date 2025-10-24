@@ -4,14 +4,14 @@ future: true
 
 relative_permalinks: false
 
-title : Delft-Meta Research Lab
+title : FUSE Lab
 tagline:
 author :
   name : Carolin Brandt
   github : serg-delft
   # twitter : Ai4Fintech
 
-baseurl: "/delft-meta-research-lab" # the subpath of your site, e.g. /blog
+baseurl: "/fuse-lab" # the subpath of your site, e.g. /blog
 url: "https://se.ewi.tudelft.nl/" # the base hostname & protocol for your site, e.g.
 
 collections:

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Delft-Meta Research Lab
+title: FUSE Lab
 carousels:
   - images:
     - image: img/group_photos/lab-launch-Oct2.jpeg
@@ -13,31 +13,24 @@ carousels:
       text: "Meta Leadership, October 2025"
 ---
 
-# Delft-Meta Research Lab
+# The Future of Software Engineering Lab
 
-The Delft-Meta Research Lab's mission is to
-
-- Rethinking the future of software development​ 
-- Informed by sound theories grounded in data​ 
-- Demonstrated in working prototypes​ 
-- Embracing AI as an opportunity​ 
-- Addressing the challenges emerging due to AI​ 
-
+In the FUSE Lab at TU Delft we rethink the future of software development.
+We do this informed by sound theories and grounded in data​.
+We demonstrate our insights in working protypes.
+While we embrace AI as an opportunity, we also address the challengaes emerging due to AI.
 We want to tackle this in research, in practice, and in education​. 
 
+The core of the FUSE lab consists of four research tracks, in which PhD students work on a range of topics, such as 
+code review, software testing, refactoring and prductivity metrics. In each track, researchers from TU Delft and from Meta are involved, as well as bachelor and master students from TU Delft.
 
-<!-- AI for Fintech Research (AFR) is a five year collaboration between [ING] and [Delft University of Technology][tudelft]. The mission of AFR is to perform world-class research at the intersection of Artificial Intelligence, Data Analytics, and Software Analytics in the context of FinTech.
-AFR was launched in 2020. 
+The FUSE lab is located at the TU Delft campus in Delft.
 
-With 36 million customers, activities in 42 countries, and a total of 50,000 employees of which 15,000 work in IT, software and data technology is at the heart of ING’s business and operations. In this context, AFR seeks to develop new AI-driven theories, methods, and tools in large scale data and software analytics.
+<!-- FUSE participates in the Innovation Center for Artificial Intelligence ([ICAI]) as one of its labs. ICAI is a virtual organization consisting of a series of labs of similar size (over five PhD researchers each) working in close collaboration with societal or industrial partners. FUSE directly benefits from the experience and expertise of other academic and industrial ICAI partners, such as Qualcomm, Bosch, Ahold Delhaize, the Dutch National Police, the University of Amsterdam, and Vrije Universiteit.  -->
 
-The core of the AFR consists of eight research tracks, in which PhD students work on a range of topics, such as software analytics, data integration, fairness in machine learning, model life cycle management, regulatory compliance, search-based software engineering, and concept drift. In each track, researchers from TU Delft and engineers from ING are involved, as well as bachelor and master students from TU Delft.
+The lab is led by [Arie van Deursen][avandeursen] and [Nachi Naggapan][nachinagappan] and lab managers [Carolin Brandt][cbrandt] and [Venkatesh Chandrasekar][vchandrasekar].
 
-AFR is bi-located at the TU Delft campus in Delft and at [Cumulus Park] – the collaborative innovation district in Amsterdam Southeast – bringing together students, engineers, researchers, professors, and entrepreneurs from both organizations at both locations. During the COVID-19 pandemic in 2020 and 2021, all collabaration was virtual, with hybrid meetings returning in 2022.
-
-AFR participates in the Innovation Center for Artificial Intelligence ([ICAI]) as one of its labs. ICAI is a virtual organization consisting of a series of labs of similar size (over five PhD researchers each) working in close collaboration with societal or industrial partners. AFR directly benefits from the experience and expertise of other academic and industrial ICAI partners, such as Qualcomm, Bosch, Ahold Delhaize, the Dutch National Police, the University of Amsterdam, and Vrije Universiteit. -->
-
-The lab is led by scientific directors [Arie van Deursen][avandeursen] and [Andy Zaidman][azaidman] and lab managers [Carolin Brandt][cbrandt] and [Venkatesh Chandrasekar][vchandrasekar].
+This lab is co-sponsored by Meta's DevInfra, who support the tool defining most of the developer lifecyle at Meta.
 
 ----
 
@@ -51,6 +44,7 @@ The lab is led by scientific directors [Arie van Deursen][avandeursen] and [Andy
 [ing]: https://ing.com
 [avandeursen]: https://avandeursen.com
 [azaidman]: https://azaidman.github.io/
+[nachinagappan]: https://nachinagappan.github.io/
 [cbrandt]: https://carolin-brandt.de/
 [vchandrasekar]: https://www.linkedin.com/in/venchandrasekar/
 [serg]: https://se.ewi.tudelft.nl
