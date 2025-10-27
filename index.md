@@ -16,10 +16,10 @@ carousels:
 # The Future of Software Engineering Lab
 
 In the FUSE Lab at TU Delft we rethink the future of software development.
-We do this informed by sound theories and grounded in data​.
+We do this informed by sound theories and grounded in data.
 We demonstrate our insights in working protypes.
-While we embrace AI as an opportunity, we also address the challengaes emerging due to AI.
-We want to tackle this in research, in practice, and in education​. 
+While we embrace AI as an opportunity, we also address the challenges emerging due to AI.
+We want to tackle this in research, in practice, and in education. 
 
 The core of the FUSE lab consists of four research tracks, in which PhD students work on a range of topics, such as 
 code review, software testing, refactoring and prductivity metrics. In each track, researchers from TU Delft and from Meta are involved, as well as bachelor and master students from TU Delft.
@@ -30,7 +30,7 @@ The FUSE lab is located at the TU Delft campus in Delft.
 
 The lab is led by [Arie van Deursen][avandeursen] and [Nachi Naggapan][nachinagappan] and lab managers [Carolin Brandt][cbrandt] and [Venkatesh Chandrasekar][vchandrasekar].
 
-This lab is co-sponsored by Meta's DevInfra, who support the tool defining most of the developer lifecyle at Meta.
+This lab is co-sponsored by Meta's DevInfra team.
 
 ----
 
