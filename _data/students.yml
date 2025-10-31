@@ -7,6 +7,30 @@
   supervision: Mitchell Olsthoorn
   link: https://www.linkedin.com/in/varun-bharti-432299254/
 
+- track: 3
+  name: Viktor Hornet
+  level: MSc Thesis
+  topic: "in-IDE Refactroing Detection and Application"
+  status: "Started (2025)"
+  supervision: Maliheh Izadi
+  link: null
+
+- track: 3
+  name: Inaesh Joshi
+  level: MSc Thesis
+  topic: "Autonomous Agents for Automated Refactoring"
+  status: "Started (2025)"
+  supervision: Maliheh Izadi
+  link: null
+
+- track: 3
+  name: Yongcheng Huang
+  level: MSc Thesis
+  topic: "Automated Refactoring via Diffiuson"
+  status: "Started (2025)"
+  supervision: Maliheh Izadi, Arie van Deursen
+  link: https://huangs-website.webflow.io/
+
 - track: 4
   name: "TBA"
   level: MSc Thesis
@@ -14,20 +38,3 @@
   status: "Started (2025)"
   supervision: Carolin Brandt
   link: null
-
-
-# - track: AI-based Quality & Testing
-#   name: Joshua Azimullah
-#   level: MSc
-#   topic: "Rest-ING: LLM-Based testing of RESTful APIs"
-#   status: Graduated (2025)
-#   supervision: Arie van Deursen, Eileen Kapel, Marlo Ploemen
-#   link: null
-
-# - track: Continuous Experimentation
-#   name: Jurriaan den Toonder
-#   level: MSc
-#   topic: "S.C.A.L.E.: Scheduler for Carbon-Aware Load Execution in OpenShift at ING"
-#   status: Graduated (2024)
-#   supervision: Thomas Durieux, Paul Braakman
-#   link: http://resolver.tudelft.nl/uuid:79406c06-ab43-4cba-9136-cb8243e891ed
