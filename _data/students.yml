@@ -1,11 +1,20 @@
 
-# - track: Data Integration
-#   name: Vincent van Vliet
-#   level: MSc
-#   topic: "Data deletion policies"
-#   status: "Started (2025)"
-#   supervision: Arie van Deursen, Paul Braakman
-#   link: null
+- track: 2
+  name: Varun Bharti
+  level: Intern
+  topic: "Type Inference for Test Generation"
+  status: "Started (2025)"
+  supervision: Mitchell Olsthoorn
+  link: https://www.linkedin.com/in/varun-bharti-432299254/
+
+- track: 4
+  name: "TBA"
+  level: MSc Thesis
+  topic: "Tracking Developer Interactions"
+  status: "Started (2025)"
+  supervision: Carolin Brandt
+  link: null
+
 
 # - track: AI-based Quality & Testing
 #   name: Joshua Azimullah

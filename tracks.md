@@ -14,7 +14,7 @@ Track 4: Engineering Productivity Metrics
 Track 5: The Security Impact of LLMs4Code   -->
 
 
-| Id | Track  | PhD Candidate | Track leads Delft | Track leads Meta |
+|  | Track  | PhD Candidate | Track leads Delft | Track leads Meta |
 |----|--------|---------------|-------------------|------------------|
 {% for track in site.tracks -%}
 {%- unless track.inactive -%}
