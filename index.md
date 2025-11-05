@@ -28,7 +28,7 @@ The FUSE lab is located at the TU Delft campus in Delft.
 
 <!-- FUSE participates in the Innovation Center for Artificial Intelligence ([ICAI]) as one of its labs. ICAI is a virtual organization consisting of a series of labs of similar size (over five PhD researchers each) working in close collaboration with societal or industrial partners. FUSE directly benefits from the experience and expertise of other academic and industrial ICAI partners, such as Qualcomm, Bosch, Ahold Delhaize, the Dutch National Police, the University of Amsterdam, and Vrije Universiteit.  -->
 
-The lab is led by [Arie van Deursen][avandeursen] and [Nachi Naggapan][nachinagappan] and lab managers [Carolin Brandt][cbrandt] and [Venkatesh Chandrasekar][vchandrasekar].
+The lab is led by [Arie van Deursen][avandeursen] and [Nachi Nagappan][nachinagappan] and lab managers [Carolin Brandt][cbrandt] and [Venkatesh Chandrasekar][vchandrasekar].
 
 This lab is co-sponsored by Meta's DevInfra team.
 
