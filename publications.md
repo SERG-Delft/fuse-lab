@@ -7,9 +7,9 @@ title: Publications
 
 # Publications
 
-All publications of the AI for Fintech Research are available in (green) open access, mostly via the [TU Delft repository][pure].
+All publications of the FUSE lab are available in (green) open access, mostly via the [TU Delft repository][pure].
 
-[pure]: https://research.tudelft.nl/en/searchAll/index/?search=ai4fintech
+[pure]: https://research.tudelft.nl/en/
 
 ## Key Publications
 
@@ -24,11 +24,11 @@ All publications of the AI for Fintech Research are available in (green) open ac
     {%- endfor -%}
   {%- endif -%}
   {% if publication.venue %}
-    {{publication.venue}},
+    *{{publication.venue}}*,
   {%- endif %}
     {{publication.year}}.
   {%- if publication.journal %}
-    {{publication.journal}}.
+    *{{publication.journal}}*.
   {%- endif -%}
   {%- if publication.award %}
     🏆 {{publication.award}}.
