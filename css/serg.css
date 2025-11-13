@@ -30,7 +30,8 @@ h3 {
 
 /*Navbar*/
 .navbar, .tudelft {
-  background-color: #00A6D6;
+  background-color: #0C2340;
+  padding-left: 2rem;
 }
 
 .afr, .myfooter {
@@ -67,6 +68,9 @@ h3 {
 
 .navbar-light .navbar-nav .nav-link, .tudelft {
   color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover, .tudelft {
+  color: #00A6D6;
 }
 
 .container-center {
