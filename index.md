@@ -26,7 +26,7 @@ The FUSE lab is hosted within the Software Engineering Research Group ([SERG]) a
 The core of the FUSE lab consists of five research tracks, in which PhD students work on a range of topics, such as 
 code review, software testing, refactoring, productivity metrics, and security of LLMs for code. In each track, researchers from TU Delft and from Meta are involved, as well as bachelor and master students from TU Delft.
 
-FUSE participates in the Innovation Center for Artificial Intelligence ([ICAI]) as one of its labs. ICAI is a virtual organization consisting of a series of labs of similar size (over five PhD researchers each) working in close collaboration with societal or industrial partners. FUSE directly benefits from the experience and expertise of other academic and industrial ICAI partners, such as ING, Bosch, JetBrains, the DSM, and all universities in The Netherlands.
+FUSE participates in the Innovation Center for Artificial Intelligence ([ICAI]) as one of its labs. ICAI is a virtual organization consisting of a series of labs of similar size (over five PhD researchers each) working in close collaboration with societal or industrial partners. FUSE directly benefits from the experience and expertise of other academic and industrial ICAI partners, such as ING, JetBrains, DSM, Alliander, and all universities in The Netherlands.
 
 The lab is led by [Arie van Deursen][avandeursen] and [Nachi Nagappan][nachinagappan] and lab managers [Carolin Brandt][cbrandt] and [Venkatesh Chandrasekar][vchandrasekar].
 
