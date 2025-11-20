@@ -21,16 +21,15 @@ We demonstrate our insights in working protypes.
 While we embrace AI as an opportunity, we also address the challenges emerging due to AI.
 We want to tackle this in research, in practice, and in education. 
 
+The FUSE lab is hosted within the Software Engineering Research Group ([SERG]) at TU Delft. All results will be openly available through open source prototypes and open access publications. The FUSE lab is co-sponsored by Meta's DevInfra team.
+
 The core of the FUSE lab consists of five research tracks, in which PhD students work on a range of topics, such as 
 code review, software testing, refactoring, productivity metrics, and security of LLMs for code. In each track, researchers from TU Delft and from Meta are involved, as well as bachelor and master students from TU Delft.
-
-The FUSE lab is located at the TU Delft campus in Delft.
 
 FUSE participates in the Innovation Center for Artificial Intelligence ([ICAI]) as one of its labs. ICAI is a virtual organization consisting of a series of labs of similar size (over five PhD researchers each) working in close collaboration with societal or industrial partners. FUSE directly benefits from the experience and expertise of other academic and industrial ICAI partners, such as ING, Bosch, JetBrains, the DSM, and all universities in The Netherlands.
 
 The lab is led by [Arie van Deursen][avandeursen] and [Nachi Nagappan][nachinagappan] and lab managers [Carolin Brandt][cbrandt] and [Venkatesh Chandrasekar][vchandrasekar].
 
-This lab is co-sponsored by Meta's DevInfra team.
 
 ----
 
