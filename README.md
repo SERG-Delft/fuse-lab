@@ -26,6 +26,6 @@ bundle exec jekyll build --config _config.yml,_config_local.yml
 
 # Run jekyll with Docker (recommended)
 ```
-docker build -t afr-site .
-docker run -p 4000:4000 -v $(pwd):/myapp -it afr-site
+docker build -t fuse-site .
+docker run -p 4000:4000 -v $(pwd):/myapp -it fuse-site
 ```

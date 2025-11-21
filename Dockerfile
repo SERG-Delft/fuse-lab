@@ -1,4 +1,4 @@
-FROM ruby:2.7.4
+FROM ruby:3.4.7
 
 WORKDIR /myapp
 COPY . /myapp
@@ -11,6 +11,7 @@ RUN gem install bundler -v 2.4.22
 RUN gem install jekyll -v 3.9.3
 RUN gem install kramdown -v 2.3.1
 RUN gem install kramdown-parser-gfm
+RUN gem install public_suffix -v 6.0.2
 
 # Ensure Bundler version matches Gemfile.lock or update it
 RUN bundle update --bundler
