@@ -1,23 +1,14 @@
 FROM ruby:3.4.7
 
 WORKDIR /myapp
-COPY . /myapp
 
-# Update RubyGems to ensure compatibility
-RUN gem install rubygems-update -v 3.2.33 && update_rubygems
+COPY Gemfile Gemfile.lock ./
 
-# Install Bundler and Jekyll
-RUN gem install bundler -v 2.4.22
-RUN gem install jekyll -v 3.9.3
-RUN gem install kramdown -v 2.3.1
-RUN gem install kramdown-parser-gfm
-RUN gem install public_suffix -v 6.0.2
+RUN gem install bundler --version 2.4.22 --no-document \
+    && bundle _2.4.22_ install
 
-# Ensure Bundler version matches Gemfile.lock or update it
-RUN bundle update --bundler
-# Install dependencies from Gemfile
-RUN bundle install
+COPY . .
 
 EXPOSE 4000
 
-CMD bundle exec jekyll s --host "0.0.0.0" --safe --config _config.yml,_config_local.yml
+CMD ["bundle", "_2.4.22_", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--safe", "--config", "_config.yml,_config_local.yml"]
