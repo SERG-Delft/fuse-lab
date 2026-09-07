@@ -5,7 +5,7 @@ interests: FUSE Lab PhD Candidate, AI-enabled SE, AI for refactoring, Agentic SE
 track:
   - "3"
 
-current_affiliation: FUSE Lab
+current_affiliation: SERG, PhD
 role: PhD Candidate
 start_date:
 end_date:
