@@ -5,7 +5,7 @@ interests: PhD Candidate
 track: "2"
 
 current_affiliation: SERG, FUSE Lab
-role: PhD Candidate
+role: PhD Student
 start_date:
 end_date:
 
