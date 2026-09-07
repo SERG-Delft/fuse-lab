@@ -1,4 +1,7 @@
-.card-deck { width: 54rem; }
+.card-deck {
+  width: 64rem;
+  max-width: 100%;
+}
 
 html,
 body {
