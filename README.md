@@ -6,26 +6,45 @@ The web site is built with Jekyll and is running on GitHub pages.
 
 There are two options to build the website locally:
 
-* Installing and running Jekyll
-* Running Jekyll from a Docker container
+- Install and run Jekyll directly.
+- Run Jekyll in a Docker container (recommended).
 
 #### Installing and running Jekyll
 
-Jekyll requires Ruby (>=2.3). If you have Ruby installed (most recent Linuxes
-and Macs do have a correct version of Ruby), you can use the following commands
-to build the web site:
+Use Ruby 3.0 or newer; the lockfile pins `public_suffix` 6.0.2, which requires
+Ruby 3.0. `Gemfile.lock` was generated with Bundler 2.4.22, and the Docker image
+uses Ruby 3.4.7. On macOS, do not use the system Ruby; install a current Ruby
+version by following the
+[official Jekyll instructions](https://jekyllrb.com/docs/installation/macos/).
 
 ```shell
-# Install dependencies
-gem install bundler
-bundle install
+# Check the active Ruby version.
+ruby --version
 
-# Build the web site
+# Install the Bundler version used by this project and its dependencies.
+gem install bundler --version 2.4.22
+bundle _2.4.22_ install
 
-bundle exec jekyll build --config _config.yml,_config_local.yml
+# Build the static website in _site/.
+bundle _2.4.22_ exec jekyll build --config _config.yml,_config_local.yml
 
-# Run jekyll with Docker (recommended)
+# Start a local development server with automatic regeneration.
+bundle _2.4.22_ exec jekyll serve --config _config.yml,_config_local.yml
 ```
-docker build -t fuse-site .
-docker run -p 4000:4000 -v $(pwd):/myapp -it fuse-site
+
+Open <http://127.0.0.1:4000/fuse-lab/>. Press `Ctrl+C` to stop the server.
+
+#### Running Jekyll with Docker (recommended)
+
+With a Docker engine running, build the image and start the development server:
+
+```shell
+docker build --tag fuse-site .
+docker run --rm \
+  --publish 127.0.0.1:4000:4000 \
+  --mount type=bind,source="$(pwd)",target=/myapp \
+  fuse-site
 ```
+
+Open <http://127.0.0.1:4000/fuse-lab/>. Press `Ctrl+C` to stop and remove the
+container.
