@@ -4,8 +4,8 @@ surname: Bekmyradov
 interests: PhD Candidate
 track: "2"
 
-current_affiliation: SERG, FUSE Lab
-role: PhD Student
+current_affiliation: SERG, PhD 
+role: PhD Candidate
 start_date:
 end_date:
 
