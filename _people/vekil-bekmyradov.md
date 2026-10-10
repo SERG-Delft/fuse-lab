@@ -9,11 +9,11 @@ role: PhD Candidate
 start_date:
 end_date:
 
-website_url:
-email: V.Bekmyradov@tudelft.nl
+website_url: https://vklb.github.io/
+email: v.bekmyradov@tudelft.nl
 github: vklb
 linkedin: vklb
-google_scholar:
+google_scholar: GhPQc1YAAAAJ
 xdotcom:
 stackoverflow:
 tudelft_research:
