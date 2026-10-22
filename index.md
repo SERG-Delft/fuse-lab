@@ -3,6 +3,8 @@ layout: default
 title: FUSE Lab
 carousels:
   - images:
+    - image: img/group_photos/fuse-lab-group-photo-Oct2026-2.jpg
+      text: "FUSE Lab @ TU Delft, October 2026"
     - image: img/group_photos/lab-launch-Oct2.jpeg
       text: "Lab Launch @ TU Delft, October 2025"
     - image: img/group_photos/serg-meta-visit-Oct3.jpeg
